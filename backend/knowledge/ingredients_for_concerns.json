@@ -1,0 +1,924 @@
+{
+  "age": {
+    "12-17": {
+      "recommended": [
+        "niacinamide",
+        "zinc pca",
+        "salicylic acid",
+        "panthenol",
+        "aloe barbadensis leaf juice",
+        "chamomile",
+        "tea tree oil",
+        "bisabolol",
+        "glycerin",
+        "allantoin"
+      ],
+      "avoid": [
+        "retinol",
+        "glycolic acid",
+        "lactic acid",
+        "vitamin c",
+        "peptides",
+        "bakuchiol",
+        "ceramides",
+        "hydroxyacids",
+        "alpha-arbutin",
+        "benzoyl peroxide"
+      ]
+    },
+    "18-25": {
+      "recommended": [
+        "niacinamide",
+        "salicylic acid",
+        "hyaluronic acid",
+        "zinc pca",
+        "glycerin",
+        "panthenol",
+        "aloe barbadensis leaf juice",
+        "tea tree oil",
+        "green tea extract",
+        "vitamin c"
+      ],
+      "avoid": [
+        "heavy oils",
+        "mineral oil",
+        "petrolatum",
+        "coconut oil",
+        "shea butter",
+        "lanolin",
+        "isopropyl myristate",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "fragrance"
+      ]
+    },
+    "26-35": {
+      "recommended": [
+        "vitamin c",
+        "hyaluronic acid",
+        "niacinamide",
+        "peptides",
+        "retinol",
+        "glycolic acid",
+        "lactic acid",
+        "coenzyme q10",
+        "green tea extract",
+        "ceramides"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "acetone",
+        "high concentrations of essential oils",
+        "paraffin",
+        "mineral oil",
+        "butylene glycol"
+      ]
+    },
+    "36-50": {
+      "recommended": [
+        "retinol",
+        "peptides",
+        "vitamin c",
+        "hyaluronic acid",
+        "coenzyme q10",
+        "ceramides",
+        "niacinamide",
+        "glycolic acid",
+        "bakuchiol",
+        "resveratrol"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "acetone",
+        "high concentrations of essential oils",
+        "paraffin",
+        "mineral oil",
+        "butylene glycol"
+      ]
+    },
+    "51-100": {
+      "recommended": [
+        "retinol",
+        "peptides",
+        "ceramides",
+        "hyaluronic acid",
+        "vitamin e",
+        "vitamin c",
+        "niacinamide",
+        "squalane",
+        "coenzyme q10",
+        "glycerin"
+      ],
+      "avoid": [
+        "high concentrations of hydroxy acids",
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "acetone",
+        "high concentrations of essential oils",
+        "high concentrations of retinol",
+        "benzoyl peroxide"
+      ]
+    }
+  },
+  "sex": {
+    "Male": {
+      "recommended": [
+        "salicylic acid",
+        "niacinamide",
+        "glycolic acid",
+        "hyaluronic acid",
+        "vitamin c",
+        "green tea extract",
+        "aloe barbadensis leaf juice",
+        "zinc pca",
+        "panthenol",
+        "allantoin"
+      ],
+      "avoid": [
+        "heavy fragrances",
+        "heavy oils",
+        "coconut oil",
+        "mineral oil",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "acetone",
+        "butylene glycol"
+      ]
+    },
+    "Female": {
+      "recommended": [
+        "hyaluronic acid",
+        "vitamin c",
+        "niacinamide",
+        "peptides",
+        "ceramides",
+        "retinol",
+        "glycolic acid",
+        "lactic acid",
+        "vitamin e",
+        "coenzyme q10"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "parabens",
+        "phthalates"
+      ]
+    },
+    "Other": {
+      "recommended": [
+        "hyaluronic acid",
+        "niacinamide",
+        "vitamin c",
+        "glycerin",
+        "panthenol",
+        "aloe barbadensis leaf juice",
+        "ceramides",
+        "peptides",
+        "green tea extract",
+        "allantoin"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "parabens",
+        "phthalates"
+      ]
+    }
+  },
+  "skin_type": {
+    "Normal Skin": {
+      "recommended": [
+        "hyaluronic acid",
+        "niacinamide",
+        "vitamin c",
+        "glycerin",
+        "jojoba oil",
+        "aloe barbadensis leaf juice",
+        "panthenol",
+        "ceramides",
+        "peptides",
+        "argan oil"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "parabens",
+        "phthalates"
+      ]
+    },
+    "Karma Skin": {
+      "recommended": [
+        "hyaluronic acid",
+        "niacinamide",
+        "glycerin",
+        "panthenol",
+        "aloe barbadensis leaf juice",
+        "chamomile",
+        "centella asiatica",
+        "allantoin",
+        "bisabolol",
+        "green tea extract"
+      ],
+      "avoid": [
+        "oil",
+        "heavy oils",
+        "coconut oil",
+        "cocoa butter",
+        "shea butter",
+        "mineral oil",
+        "petrolatum",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "lanolin"
+      ]
+    },
+    "Dry Skin": {
+      "recommended": [
+        "hyaluronic acid",
+        "glycerin",
+        "squalane",
+        "ceramides",
+        "fatty acids",
+        "shea butter",
+        "jojoba oil",
+        "argan oil",
+        "vitamin e",
+        "panthenol"
+      ],
+      "avoid": [
+        "alcohol denat",
+        "alcohol",
+        "witch hazel",
+        "sodium lauryl sulfate",
+        "ammonium lauryl sulfate",
+        "fragrance",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil",
+        "salicylic acid"
+      ]
+    },
+    "Oily Skin": {
+      "recommended": [
+        "niacinamide",
+        "salicylic acid",
+        "zinc pca",
+        "tea tree oil",
+        "green tea extract",
+        "hyaluronic acid",
+        "glycerin",
+        "aloe barbadensis leaf juice",
+        "witch hazel",
+        "clay"
+      ],
+      "avoid": [
+        "oil",
+        "coconut oil",
+        "cocoa butter",
+        "shea butter",
+        "mineral oil",
+        "petrolatum",
+        "lanolin",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "sodium lauryl sulfate"
+      ]
+    }
+  },
+  "skin_sensitivity": {
+    "Not sensitive at all": {
+      "recommended": [
+        "retinol",
+        "vitamin c",
+        "glycolic acid",
+        "lactic acid",
+        "salicylic acid",
+        "niacinamide",
+        "hyaluronic acid",
+        "peptides",
+        "alpha-arbutin",
+        "bakuchiol"
+      ],
+      "avoid": [
+        "sodium lauryl sulfate",
+        "ammonium lauryl sulfate",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "phthalates",
+        "formaldehyde",
+        "diazolidinyl urea",
+        "quaternium-15"
+      ]
+    },
+    "Somewhat sensitive": {
+      "recommended": [
+        "niacinamide",
+        "hyaluronic acid",
+        "aloe barbadensis leaf juice",
+        "panthenol",
+        "allantoin",
+        "bisabolol",
+        "centella asiatica",
+        "glycerin",
+        "ceramides",
+        "oat extract"
+      ],
+      "avoid": [
+        "alcohol denat",
+        "fragrance",
+        "essential oils",
+        "witch hazel",
+        "sodium lauryl sulfate",
+        "ammonium lauryl sulfate",
+        "menthol",
+        "eucalyptus oil",
+        "peppermint oil",
+        "high concentrations of acids"
+      ]
+    },
+    "Very sensitive": {
+      "recommended": [
+        "aloe barbadensis leaf juice",
+        "panthenol",
+        "allantoin",
+        "bisabolol",
+        "centella asiatica",
+        "glycerin",
+        "ceramides",
+        "oat extract",
+        "chamomile",
+        "hyaluronic acid"
+      ],
+      "avoid": [
+        "alcohol",
+        "alcohol denat",
+        "fragrance",
+        "essential oils",
+        "witch hazel",
+        "sodium lauryl sulfate",
+        "ammonium lauryl sulfate",
+        "menthol",
+        "eucalyptus oil",
+        "peppermint oil"
+      ]
+    }
+  },
+  "skin_phototype": {
+    "Pale white skin": {
+      "recommended": [
+        "sunscreen",
+        "niacinamide",
+        "vitamin c",
+        "vitamin e",
+        "green tea extract",
+        "hyaluronic acid",
+        "ceramides",
+        "aloe barbadensis leaf juice",
+        "panthenol",
+        "allantoin"
+      ],
+      "avoid": [
+        "hydroquinone",
+        "high concentrations of retinol",
+        "high concentrations of hydroxy acids",
+        "bergamot oil",
+        "citrus oils",
+        "synthetic fragrances",
+        "alcohol denat",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil"
+      ]
+    },
+    "White skin": {
+      "recommended": [
+        "sunscreen",
+        "niacinamide",
+        "vitamin c",
+        "vitamin e",
+        "green tea extract",
+        "hyaluronic acid",
+        "ceramides",
+        "aloe barbadensis leaf juice",
+        "panthenol",
+        "allantoin"
+      ],
+      "avoid": [
+        "hydroquinone",
+        "high concentrations of retinol",
+        "high concentrations of hydroxy acids",
+        "bergamot oil",
+        "citrus oils",
+        "synthetic fragrances",
+        "alcohol denat",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil"
+      ]
+    },
+    "Light brown skin": {
+      "recommended": [
+        "sunscreen",
+        "niacinamide",
+        "vitamin c",
+        "hyaluronic acid",
+        "ceramides",
+        "green tea extract",
+        "licorice root extract",
+        "arbutin",
+        "panthenol",
+        "allantoin"
+      ],
+      "avoid": [
+        "hydroquinone",
+        "high concentrations of retinol",
+        "high concentrations of hydroxy acids",
+        "bergamot oil",
+        "citrus oils",
+        "synthetic fragrances",
+        "alcohol denat",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil"
+      ]
+    },
+    "Moderate brown skin": {
+      "recommended": [
+        "sunscreen",
+        "niacinamide",
+        "vitamin c",
+        "hyaluronic acid",
+        "ceramides",
+        "green tea extract",
+        "licorice root extract",
+        "arbutin",
+        "tranexamic acid",
+        "allantoin"
+      ],
+      "avoid": [
+        "hydroquinone",
+        "high concentrations of retinol",
+        "high concentrations of hydroxy acids",
+        "bergamot oil",
+        "citrus oils",
+        "synthetic fragrances",
+        "alcohol denat",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil"
+      ]
+    },
+    "Dark brown skin": {
+      "recommended": [
+        "sunscreen",
+        "niacinamide",
+        "vitamin c",
+        "hyaluronic acid",
+        "ceramides",
+        "green tea extract",
+        "licorice root extract",
+        "arbutin",
+        "tranexamic acid",
+        "vitamin e"
+      ],
+      "avoid": [
+        "hydroquinone",
+        "high concentrations of retinol",
+        "high concentrations of hydroxy acids",
+        "bergamot oil",
+        "citrus oils",
+        "synthetic fragrances",
+        "alcohol denat",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil"
+      ]
+    },
+    "Deep brown skin": {
+      "recommended": [
+        "sunscreen",
+        "niacinamide",
+        "vitamin c",
+        "hyaluronic acid",
+        "ceramides",
+        "green tea extract",
+        "licorice root extract",
+        "arbutin",
+        "tranexamic acid",
+        "vitamin e"
+      ],
+      "avoid": [
+        "hydroquinone",
+        "high concentrations of retinol",
+        "high concentrations of hydroxy acids",
+        "bergamot oil",
+        "citrus oils",
+        "synthetic fragrances",
+        "alcohol denat",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil"
+      ]
+    }
+  },
+  "concerns": {
+    "Acne & Blemishes": {
+      "recommended": [
+        "salicylic acid",
+        "niacinamide",
+        "tea tree oil",
+        "zinc pca",
+        "green tea extract",
+        "witch hazel",
+        "clay",
+        "sulfur",
+        "azelaic acid",
+        "retinol"
+      ],
+      "avoid": [
+        "oil",
+        "coconut oil",
+        "cocoa butter",
+        "shea butter",
+        "mineral oil",
+        "petrolatum",
+        "lanolin",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "sodium lauryl sulfate"
+      ]
+    },
+    "Anti-aging": {
+      "recommended": [
+        "retinol",
+        "peptides",
+        "vitamin c",
+        "hyaluronic acid",
+        "coenzyme q10",
+        "niacinamide",
+        "resveratrol",
+        "ceramides",
+        "vitamin e",
+        "bakuchiol"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "parabens",
+        "phthalates"
+      ]
+    },
+    "Black Heads": {
+      "recommended": [
+        "salicylic acid",
+        "glycolic acid",
+        "retinol",
+        "niacinamide",
+        "zinc pca",
+        "clay",
+        "charcoal",
+        "tea tree oil",
+        "witch hazel",
+        "green tea extract"
+      ],
+      "avoid": [
+        "oil",
+        "coconut oil",
+        "cocoa butter",
+        "shea butter",
+        "mineral oil",
+        "petrolatum",
+        "lanolin",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "butylene glycol"
+      ]
+    },
+    "Dark Circles": {
+      "recommended": [
+        "vitamin c",
+        "vitamin k",
+        "niacinamide",
+        "caffeine",
+        "peptides",
+        "hyaluronic acid",
+        "retinol",
+        "green tea extract",
+        "hesperidin methyl chalcone",
+        "arnica"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "menthol",
+        "eucalyptus oil"
+      ]
+    },
+    "Dark Spots": {
+      "recommended": [
+        "vitamin c",
+        "niacinamide",
+        "alpha-arbutin",
+        "licorice root extract",
+        "tranexamic acid",
+        "azelaic acid",
+        "kojic acid",
+        "retinol",
+        "glycolic acid",
+        "lactic acid"
+      ],
+      "avoid": [
+        "hydroquinone",
+        "bergamot oil",
+        "citrus oils",
+        "synthetic fragrances",
+        "alcohol denat",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil",
+        "high concentrations of retinol",
+        "high concentrations of hydroxy acids"
+      ]
+    },
+    "Dryness": {
+      "recommended": [
+        "hyaluronic acid",
+        "glycerin",
+        "squalane",
+        "ceramides",
+        "fatty acids",
+        "shea butter",
+        "jojoba oil",
+        "argan oil",
+        "vitamin e",
+        "panthenol"
+      ],
+      "avoid": [
+        "alcohol denat",
+        "alcohol",
+        "witch hazel",
+        "sodium lauryl sulfate",
+        "ammonium lauryl sulfate",
+        "fragrance",
+        "menthol",
+        "peppermint oil",
+        "eucalyptus oil",
+        "salicylic acid"
+      ]
+    },
+    "Dullness": {
+      "recommended": [
+        "vitamin c",
+        "glycolic acid",
+        "lactic acid",
+        "niacinamide",
+        "retinol",
+        "hyaluronic acid",
+        "alpha-arbutin",
+        "coenzyme q10",
+        "green tea extract",
+        "licorice root extract"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "parabens",
+        "phthalates"
+      ]
+    },
+    "Fine Lines & Wrinkles": {
+      "recommended": [
+        "retinol",
+        "peptides",
+        "vitamin c",
+        "hyaluronic acid",
+        "coenzyme q10",
+        "niacinamide",
+        "resveratrol",
+        "ceramides",
+        "vitamin e",
+        "bakuchiol"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "parabens",
+        "phthalates"
+      ]
+    },
+    "Loss of Firmness": {
+      "recommended": [
+        "peptides",
+        "retinol",
+        "vitamin c",
+        "hyaluronic acid",
+        "coenzyme q10",
+        "niacinamide",
+        "resveratrol",
+        "ceramides",
+        "vitamin e",
+        "bakuchiol"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "parabens",
+        "phthalates"
+      ]
+    },
+    "Oiliness": {
+      "recommended": [
+        "niacinamide",
+        "salicylic acid",
+        "zinc pca",
+        "tea tree oil",
+        "green tea extract",
+        "witch hazel",
+        "clay",
+        "charcoal",
+        "hyaluronic acid",
+        "glycerin"
+      ],
+      "avoid": [
+        "oil",
+        "coconut oil",
+        "cocoa butter",
+        "shea butter",
+        "mineral oil",
+        "petrolatum",
+        "lanolin",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "sodium lauryl sulfate"
+      ]
+    },
+    "Puffiness": {
+      "recommended": [
+        "caffeine",
+        "green tea extract",
+        "peptides",
+        "niacinamide",
+        "vitamin c",
+        "hyaluronic acid",
+        "aloe barbadensis leaf juice",
+        "cucumber extract",
+        "centella asiatica",
+        "arnica"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "menthol",
+        "eucalyptus oil"
+      ]
+    },
+    "Redness": {
+      "recommended": [
+        "niacinamide",
+        "centella asiatica",
+        "green tea extract",
+        "aloe barbadensis leaf juice",
+        "panthenol",
+        "allantoin",
+        "bisabolol",
+        "chamomile",
+        "oat extract",
+        "licorice root extract"
+      ],
+      "avoid": [
+        "alcohol",
+        "alcohol denat",
+        "fragrance",
+        "essential oils",
+        "witch hazel",
+        "sodium lauryl sulfate",
+        "ammonium lauryl sulfate",
+        "menthol",
+        "eucalyptus oil",
+        "peppermint oil"
+      ]
+    },
+    "Uneven Texture": {
+      "recommended": [
+        "glycolic acid",
+        "lactic acid",
+        "retinol",
+        "niacinamide",
+        "vitamin c",
+        "hyaluronic acid",
+        "mandelic acid",
+        "azelaic acid",
+        "salicylic acid",
+        "peptides"
+      ],
+      "avoid": [
+        "harsh cleansers",
+        "sodium lauryl sulfate",
+        "alcohol denat",
+        "synthetic fragrances",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "acetone",
+        "high concentrations of essential oils",
+        "parabens",
+        "phthalates"
+      ]
+    },
+    "Visible Pors": {
+      "recommended": [
+        "niacinamide",
+        "salicylic acid",
+        "retinol",
+        "glycolic acid",
+        "zinc pca",
+        "clay",
+        "charcoal",
+        "witch hazel",
+        "green tea extract",
+        "azelaic acid"
+      ],
+      "avoid": [
+        "oil",
+        "coconut oil",
+        "cocoa butter",
+        "shea butter",
+        "mineral oil",
+        "petrolatum",
+        "lanolin",
+        "isopropyl myristate",
+        "isopropyl palmitate",
+        "butylene glycol"
+      ]
+    }
+  }
+}

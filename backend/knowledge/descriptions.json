@@ -1,0 +1,14 @@
+{
+    "Cleanser": "Removes dirt, oil, and impurities from the skin, preparing it for other products",
+    "Toner": "Balances skin's pH and removes any remaining impurities after cleansing",
+    "Serum": "Concentrated treatment with active ingredients targeting specific skin concerns",
+    "Eye Care": "Specialized treatment for the delicate eye area, targeting dark circles, puffiness, and fine lines",
+    "Moisturiser": "Hydrates and locks in moisture, creating a protective barrier on the skin",
+    "Sunscreen": "Protects skin from harmful UV rays, preventing premature aging and sun damage",
+    "Makeup remover": "Dissolves and removes makeup, ensuring a clean skin canvas",
+    "Spray": "Provides instant hydration, refreshes skin, and can help set makeup or other skincare products",
+    "Oil": "Provides deep nourishment and seals in moisture, often used for overnight treatments",
+     "Mask": "Delivers intensive treatment by infusing skin with nutrients, hydration, or detoxifying ingredients based on its type",
+    "Exfoliator": "Removes dead skin cells from the surface to reveal smoother, brighter skin and improve product absorption",
+    "Peel": "Uses chemical acids to deeply exfoliate and resurface skin, promoting cell renewal and addressing concerns like hyperpigmentation and texture"
+}

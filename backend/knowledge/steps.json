@@ -1,0 +1,21 @@
+{
+  "morning": [
+    "Cleanser",
+    "Toner",
+    "spray",
+    "Serum",
+    "Eye Care",
+    "Moisturiser",
+    "Sunscreen"
+  ],
+  "evening": [
+    "makeup remover",
+    "Cleanser",
+    "Toner",
+    "Spray",
+    "Serum",
+    "Eye Care",
+    "Oil",
+    "Moisturiser"
+  ]
+}

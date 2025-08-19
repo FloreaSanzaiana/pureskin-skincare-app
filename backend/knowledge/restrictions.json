@@ -1,0 +1,26 @@
+{
+    "skin_type": {
+      "Oily Skin": ["Oil"],
+      "Karma Skin": ["Oil"],
+      "Dry Skin": ["Toner"]
+    },
+    "age": {
+      "12-17": ["Eye Care", "Oil", "Serum"]
+    },
+    "sex": {
+      "Male": ["Makeup Remover"]
+    },
+    "routine_type": {
+      "evening_routine": ["Sunscreen"],
+      "morning_routine": ["Oil","Makeup remover"]
+    },
+   "concerns": {
+      "Acne & Blemishes": ["oil"],
+      "Redness": ["Toner", "Serum"],
+      "Dryness": ["Toner"],
+      "Oiliness": ["oil", "Moisturiser"],
+      "Visible Pores": ["oil"]
+    }
+}
+
+
