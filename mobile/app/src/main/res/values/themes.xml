@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema principală a aplicației, bazată pe Material3 -->
+    <style name="Theme.MyApplication2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Poți personaliza culorile aici dacă vrei -->
+        <!-- <item name="colorPrimary">@color/your_primary_color</item> -->
+    </style>
+
+</resources>

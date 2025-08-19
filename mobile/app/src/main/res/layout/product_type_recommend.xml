@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00000000"
+            android:contentDescription="back button"
+            android:src="@drawable/back_btn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.084" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:text="Select the product type."
+            android:textColor="@color/dark_blue"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="8dp"
+            android:text="Your recommendation will be tailored based on the skincare profile associated with your account."
+            android:textColor="@color/grey"
+            android:gravity="center_horizontal"
+            app:layout_constraintTop_toBottomOf="@id/textView10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@id/textView17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <RadioButton
+                android:id="@+id/radioButtonMoisturiser"
+                android:text="Moisturiser"
+                style="@style/SkincareRadioButton"
+                android:layout_marginEnd="32dp"
+                />
+            <RadioButton
+                android:id="@+id/radioButtonSerum"
+                android:text="Serum"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonPeel"
+                android:text="Peel"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonEyeCare"
+                android:text="Eye Care"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonCleanser"
+                android:text="Cleanser"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonToner"
+                android:text="Toner"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonExfoliator"
+                android:text="Exfoliator"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonSunscreen"
+                android:text="Sunscreen"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonMakeupRemover"
+                android:text="Makeup Remover"
+                style="@style/SkincareRadioButton"
+                android:layout_marginEnd="32dp"
+                />
+            <RadioButton
+                android:id="@+id/radioButtonSpray"
+                android:text="Spray"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonMask"
+                android:text="Face Mask"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioButtonOil"
+                android:text="Oil"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radioeyemask"
+                android:text="Eye Mask"
+                style="@style/SkincareRadioButton" />
+            <RadioButton
+                android:id="@+id/radiolipmask"
+                android:text="Lip Mask"
+                style="@style/SkincareRadioButton" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/button_disabled"
+            android:text="Continue"
+            android:textSize="21sp"
+            app:cornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/grid" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

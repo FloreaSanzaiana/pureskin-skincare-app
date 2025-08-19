@@ -1,0 +1,9 @@
+<!-- res/drawable/edittext_rounded_bg.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/white" /> <!-- Albastru deschis -->
+    <corners android:radius="16dp" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/pastel_blue" /> <!-- Opțional: contur subtire albastru mai închis -->
+</shape>

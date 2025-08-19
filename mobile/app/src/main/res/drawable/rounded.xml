@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/light_pastel_blue" />
+
+    <corners android:radius="12dp" /> <!-- aici setezi cât de rotunde sunt colțurile -->
+
+</shape>

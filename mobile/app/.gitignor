@@ -1,0 +1,19 @@
+# Fișiere generate automat
+.gradle/
+.idea/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Build și output
+/build/
+app/build/
+*.apk
+*.aab
+*.iml
+
+# Fișiere mari sau temporare
+*.log
+*.DS_Store
+*.keystore

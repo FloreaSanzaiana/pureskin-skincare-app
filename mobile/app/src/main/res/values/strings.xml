@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PureSkin</string>
+    <string-array name="welcome_messages">
+        <item>Good %1$s! Ready to talk about skincare?</item>
+        <item>Hello! What skincare questions do you have this %1$s?</item>
+        <item>Hi there! How can I help with your skin routine this %1$s?</item>
+
+        <item>Welcome back! What\'s on your skincare mind today?</item>
+        <item>Hello! I\'m here to help with all your skin concerns.</item>
+        <item>Hi! Ready to discover the perfect skincare routine for you?</item>
+        <item>Welcome! Let\'s talk about achieving your best skin ever.</item>
+        <item>Hello! What skincare goals are we working on today?</item>
+
+        <item>Great to see you again! Your skin journey continues here.</item>
+        <item>Welcome back! Every day is a chance for better skincare.</item>
+        <item>Hello! Ready to unlock your skin\'s potential?</item>
+        <item>Hi! Let\'s make today a great skin day together.</item>
+
+        <item>Welcome! Whether it\'s acne, aging, or routine tips - I\'m here to help.</item>
+        <item>Hello! From cleansers to serums, let\'s find what works for your skin.</item>
+        <item>Hi there! Ready to decode ingredients and build the perfect routine?</item>
+        <item>Welcome back! Let\'s continue perfecting your skincare regimen.</item>
+
+        <item>Hey! What skincare adventure are we going on today?</item>
+        <item>Hello beautiful! How can I pamper your skin today?</item>
+        <item>Welcome! Your skin deserves the best care - let\'s chat about it.</item>
+        <item>Hi! Ready to become your own skincare expert?</item>
+
+        <item>Hello! Let\'s keep your skin glowing no matter the season.</item>
+        <item>Welcome! Your personalized skincare assistant is ready to help.</item>
+        <item>Hi there! From basic routines to advanced tips - I\'ve got you covered.</item>
+        <item>Hello! Let\'s solve your skin mysteries together.</item>
+    </string-array>
+
+    <string name="time_morning">morning</string>
+    <string name="time_afternoon">afternoon</string>
+    <string name="time_evening">evening</string>
+</resources>

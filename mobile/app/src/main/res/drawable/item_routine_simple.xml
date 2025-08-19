@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Routine Type Icon -->
+        <ImageView
+            android:id="@+id/routineIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:src="@drawable/sun"
+            app:tint="@android:color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:backgroundTint="@color/primary_purple" />
+
+        <!-- Routine Name -->
+        <TextView
+            android:id="@+id/routineName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="Morning Skincare"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintStart_toEndOf="@id/routineIcon"
+            app:layout_constraintEnd_toStartOf="@id/completionBadge"
+            app:layout_constraintTop_toTopOf="@id/routineIcon" />
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/routineTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Completed at 08:30 AM"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintStart_toStartOf="@id/routineName"
+            app:layout_constraintEnd_toEndOf="@id/routineName"
+            app:layout_constraintTop_toBottomOf="@id/routineName" />
+
+        <!-- Completion Badge -->
+        <ImageView
+            android:id="@+id/completionBadge"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/sun"
+            app:tint="@color/success_green"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/routineIcon" />
+
+        <!-- Progress Bar -->
+        <ProgressBar
+            android:id="@+id/routineProgress"
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:layout_marginTop="12dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progress="100"
+            android:progressTint="@color/success_green"
+            android:progressBackgroundTint="@color/progress_background"
+            app:layout_constraintStart_toStartOf="@id/routineIcon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/routineIcon" />
+
+        <!-- Steps count -->
+        <TextView
+            android:id="@+id/stepsCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="5/5 steps completed"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@id/routineProgress"
+            app:layout_constraintEnd_toStartOf="@id/routineDuration"
+            app:layout_constraintTop_toBottomOf="@id/routineProgress" />
+
+        <!-- Duration -->
+        <TextView
+            android:id="@+id/routineDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 min"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            app:layout_constraintEnd_toEndOf="@id/routineProgress"
+            app:layout_constraintTop_toTopOf="@id/stepsCount" />
+
+        <!-- Products used as text -->
+        <TextView
+            android:id="@+id/productsText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Cleanser, Toner, Serum +2 more"
+            android:textColor="@color/text_secondary"
+            android:textSize="11sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintStart_toStartOf="@id/stepsCount"
+            app:layout_constraintEnd_toEndOf="@id/routineDuration"
+            app:layout_constraintTop_toBottomOf="@id/stepsCount" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

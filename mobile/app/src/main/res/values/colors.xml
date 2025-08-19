@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_blue">#003366</color>
+    <color name="grey">#A9A9A9</color>
+    <color name="blue_pastel_dark">#3B5998</color>
+    <color name="light_grey">#ECECEC</color>
+    <color name="button_disabled">#4D7A8C9C</color>
+    <color name="light_pastel_blue">#DCEBFF</color>
+    <color name="pastel_blue">#A3C6FF</color>
+    <color name="highlight_outline">#FFC1E3</color>
+    <color name="pastel_pink">#FFB6C1</color>
+    <color name="bot_message_bg">#F5F7FA</color>
+    <color name="user_message_bg">#3182CE</color>
+    <color name="text_primary">#2D3748</color>
+    <color name="text_secondary">#718096</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_light">#E2E8F0</color>
+    <color name="primary_purple">#6B5CE7</color>
+
+    <color name="background_light">#F8F9FA</color>
+    <color name="text_primary2">#1F2937</color>
+    <color name="text_secondary2">#6B7280</color>
+    <color name="success_green">#10B981</color>
+    <color name="warning_orange">#F59E0B</color>
+    <color name="section_header_bg">#F9FAFB</color>
+    <color name="white_transparent">#40FFFFFF</color>
+    <color name="progress_background">#E5E7EB</color>
+    <color name="notes_background">#F9FAFB</color>
+
+
+
+    <color name="light_gray">#F3F4F6</color>
+    <color name="error_red">#EF4444</color>
+
+    <color name="primary_purple_dark">#1E3A8A</color>
+</resources>
+
