@@ -1,15 +1,19 @@
 # pureskin-skincare-app
 PureSkin is an Android app for personalized skincare. It combines a Kotlin frontend, Python Flask backend, and MySQL database with knowledge-based methods and Random Forest ML. Users get tailored product recommendations, routine management, progress tracking, plus a virtual assistant via Touch AI and Google Custom Search.
-Setup și configurare
-Backend
 
-Clonează repository-ul:
+**Setup și configurare**
 
+**Backend**
+
+1. Clonează repository-ul:
+
+```
 git clone https://github.com/FloreaSanzaiana/pureskin-skincare-app.git
 cd PureSkin/backend
+```
 
-Creează fișierul .env în folderul backend/ cu următoarele variabile:
-
+2. Creează fișierul .env în folderul backend/ cu următoarele variabile:
+```
 SEARCH_ENGINE=your_google_cx
 GOOGLE_API_KEY=your_google_api_key
 CHAT_API_KEY=your_chat_api_key
@@ -21,38 +25,48 @@ DB_USER=root
 DB_PASSWORD=
 DB_NAME=pureskin
 SERVER_URL=http://localhost:5000
+```
 
-Acest fișier nu trebuie urcat pe GitHub pentru a proteja datele sensibile.
+3. Crează tabelele în baza de date:
 
-Crează tabelele în baza de date:
-
+```
 mysql -u root -p < create_tables.sql
+```
 
-Dacă vrei să recreezi modelul Random Forest (opțional):
+4. Dacă vrei să recreezi modelul Random Forest (opțional):
 
-python models/train_model.py
+```
+python train_model/random_forest.py
+```
 
-Pornește serverul:
+5. Pornește serverul:
 
+```
 python app.py
-Mobile App
+```
 
-În RetrofitInstance.kt sau fișierul de configurare al aplicației, modifică URL-ul serverului (BASE_URL) pentru a indica backend-ul tău:
 
+**Mobile App**
+
+6. În RetrofitInstance.kt sau fișierul de configurare al aplicației, modifică URL-ul serverului (BASE_URL) pentru a indica backend-ul tău:
+
+```
 private const val BASE_URL = "http://localhost:5000"
+```
 
-Rulează aplicația pe emulator sau pe device real.
+7. Rulează aplicația pe emulator sau pe device real.
 
-Funcționalități principale
 
-Înregistrare și autentificare utilizatori
+**Funcționalități principale**
 
-Resetare parolă prin email
+- Înregistrare și autentificare utilizatori
 
-Adăugare și editare produse în rutina zilnică
+- Resetare parolă prin email
 
-Recomandări personalizate de produse
+- Adăugare și editare produse în rutina zilnică
 
-Chatbot pentru întrebări legate de skincare
+- Recomandări personalizate de produse
 
-Vizualizare istoricul rutinei și al logurilor zilnice
+- Chatbot pentru întrebări legate de skincare
+
+- Vizualizare istoricul rutinei și al logurilor zilnice
