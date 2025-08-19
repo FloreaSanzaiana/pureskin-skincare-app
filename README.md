@@ -3,7 +3,7 @@ PureSkin is an Android app for personalized skincare. It combines a Kotlin front
 
 ## Setup and Configuration
 
-**Backend**
+### Backend
 
 1. Clone the repository:
 
@@ -46,7 +46,7 @@ python app.py
 ```
 
 
-**Mobile App**
+### Mobile App
 
 6. In RetrofitInstance.kt or your app configuration file, update the server URL (BASE_URL) to point to your backend:
 
