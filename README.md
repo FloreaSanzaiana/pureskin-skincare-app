@@ -1,18 +1,18 @@
 # pureskin-skincare-app
 PureSkin is an Android app for personalized skincare. It combines a Kotlin frontend, Python Flask backend, and MySQL database with knowledge-based methods and Random Forest ML. Users get tailored product recommendations, routine management, progress tracking, plus a virtual assistant via Touch AI and Google Custom Search.
 
-**Setup și configurare**
+**Setup and Configuration**
 
 **Backend**
 
-1. Clonează repository-ul:
+1. Clone the repository:
 
 ```
 git clone https://github.com/FloreaSanzaiana/pureskin-skincare-app.git
 cd PureSkin/backend
 ```
 
-2. Creează fișierul .env în folderul backend/ cu următoarele variabile:
+2. Create the .env file in the backend/ folder with the following variables:
 ```
 SEARCH_ENGINE=your_google_cx
 GOOGLE_API_KEY=your_google_api_key
@@ -27,19 +27,19 @@ DB_NAME=pureskin
 SERVER_URL=http://localhost:5000
 ```
 
-3. Crează tabelele în baza de date:
+3. Create the database tables:
 
 ```
 mysql -u root -p < create_tables.sql
 ```
 
-4. Dacă vrei să recreezi modelul Random Forest (opțional):
+4. If you want to recreate the Random Forest model (optional):
 
 ```
 python train_model/random_forest.py
 ```
 
-5. Pornește serverul:
+5. Start the server:
 
 ```
 python app.py
@@ -48,25 +48,25 @@ python app.py
 
 **Mobile App**
 
-6. În RetrofitInstance.kt sau fișierul de configurare al aplicației, modifică URL-ul serverului (BASE_URL) pentru a indica backend-ul tău:
+6. In RetrofitInstance.kt or your app configuration file, update the server URL (BASE_URL) to point to your backend:
 
 ```
 private const val BASE_URL = "http://localhost:5000"
 ```
 
-7. Rulează aplicația pe emulator sau pe device real.
+7. Run the app on an emulator or a real device.
 
 
-**Funcționalități principale**
+**Main Features**
 
-- Înregistrare și autentificare utilizatori
+- User registration and authentication
 
-- Resetare parolă prin email
+- Password reset via email
 
-- Adăugare și editare produse în rutina zilnică
+- Add and edit products in daily routines
 
-- Recomandări personalizate de produse
+- Personalized product recommendations
 
-- Chatbot pentru întrebări legate de skincare
+- Chatbot for skincare-related questions
 
-- Vizualizare istoricul rutinei și al logurilor zilnice
+- View routine history and daily logs
